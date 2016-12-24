@@ -4,10 +4,10 @@
  * Shared under the creative commons CC BY licence!
  * In other words, credit the code, but other than that use as you like!
  * 
- * Please look at the readme on github: 
+ * Please look at the readme on github before looking at this code: 
  * https://github.com/apaf1/Periodic-table
  * 
- * by apaf1
+ * by apaf1, 24.12.2016
  *
  */
 
