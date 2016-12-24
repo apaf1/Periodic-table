@@ -3,9 +3,9 @@ Arduino code for my home made periodic table, see project here: http://imgur.com
 
 The program has three important parts that control the logic of the program 
 
-check buttons --> void checkButtons()
-update state --> void updateState()
-run animations --> executed in main loop, void loop()
+-check buttons --> void checkButtons()
+-update state --> void updateState()
+-run animations --> executed in main loop, void loop()
 
 The general idea is that the main loop execute each animation mode once, then returns to the top. Each time the main loop runs the buttons are checked with checkbuttons() and the choice of mode is changed if buttons are pressed. 
 
@@ -13,18 +13,18 @@ But because it takes a long time to go through each animation mode, the buttons 
 
 The code is divided into parts that are clearly marked, and can be found in the following order
 
-Controll code
-Pixels code
-Game of life
-Party mode!!
+-Controll code
+-Pixels code
+-Game of life
+-Party mode!!
 
 
 Check list for adding new animations:
 
-Add name for mode to be displayed on LCD in char* modes[]
-Increase the value of int modesChoiceMax
-Add mode in void loop()
-Use pause() instead of delay() as pause() checks buttons while pausing.
+-Add name for mode to be displayed on LCD in char* modes[]
+-Increase the value of int modesChoiceMax
+-Add mode in void loop()
+-Use pause() instead of delay() as pause() checks buttons while pausing.
 
 Party mode:
 
